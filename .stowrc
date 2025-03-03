@@ -1,0 +1,6 @@
+#source https://github.com/omerxx/dotfiles/blob/master/.stowrc
+
+--target=~/.config
+--ignore=.stowrc
+--ignore=DS_Store
+--ignore=atuin/*
