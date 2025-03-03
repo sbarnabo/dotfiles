@@ -1,0 +1,3 @@
+#SRC https://github.com/omerxx/dotfiles/
+Install with stow:
+stow .
