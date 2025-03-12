@@ -4,7 +4,10 @@ return {
 	color_scheme = 'Catppuccin Mocha',
 	enable_tab_bar = false,
 	font_size = 16.0,
-	font = wezterm.font('JetBrainsMono Nerd Font'),
+	--Removing line for Powerlevel10k installation
+	--font = wezterm.font('JetBrainsMono Nerd Font'),
+	--Adding line for Powerlevel10k installation
+	font = wezterm.font("MesloLGS NF"),
 	macos_window_background_blur = 30,
 	
 	window_background_opacity = 1.0,
