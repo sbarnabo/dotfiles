@@ -23,7 +23,7 @@ require('lazy').setup({
     end
   },
   { 'echasnovski/mini.nvim', version = false },
-
+{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   {
     "folke/snacks.nvim",
     priority = 1000,
