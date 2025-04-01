@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
 sketchybar --add item     calendar right               \
-           --set calendar icon=cal                     \
-                          icon.color=$BLACK            \
+           --set calendar icon=$CALENDAR               \
+                          icon.color=$GREEN            \
                           icon.font="$FONT:Black:12.0" \
                           icon.padding_left=5          \
                           icon.padding_right=5         \
