@@ -6,7 +6,7 @@ sketchybar --add item     calendar right               \
                           icon.font="$FONT:Black:12.0" \
                           icon.padding_left=5          \
                           icon.padding_right=5         \
-                          icon.drawing=off             \
+                         # icon.drawing=off             \
                           label.color=$BLACK           \
                           label.padding_left=5         \
                           label.padding_right=5        \

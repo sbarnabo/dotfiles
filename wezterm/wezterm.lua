@@ -1,8 +1,9 @@
 local wezterm = require 'wezterm'
+
 return {
 	adjust_window_size_when_changing_font_size = false,
 	color_scheme = 'Catppuccin Mocha',
-	enable_tab_bar = false,
+	enable_tab_bar = true,
 	font_size = 16.0,
 	--Removing line for Powerlevel10k installation
 	font = wezterm.font('JetBrainsMono Nerd Font'),
