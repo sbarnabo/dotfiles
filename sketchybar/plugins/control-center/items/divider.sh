@@ -6,7 +6,7 @@ divider=(
 	background.border_color="$SURFACE1"
 	background.border_width=2
 	background.padding_left=5
-	background.padding_right=10
+	background.padding_right=15
 )
 sketchybar --add bracket status brew github.bell bluetooth.alias wifi.alias battery \
 	--set status "${divider[@]}"

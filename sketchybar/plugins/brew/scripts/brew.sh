@@ -8,17 +8,17 @@ PREV_COUNT=$(sketchybar --query brew | jq -r .popup.items | grep ".package*" -c)
 render_bar_item() {
 	case "$COUNT" in
 	[3-5][0-9])
-		COLOR=$PEACH
+		COLOR=$BLUE
 		;;
 	[1-2][0-9])
-		COLOR=$YELLOW
+		COLOR=$BLUE
 		;;
 	[1-9])
-		COLOR=$TEXT
+		COLOR=$BLUE
 		;;
 	0)
-		COLOR=$GREEN
-		COUNT=􀆅
+		COLOR=$BLUE
+		COUNT=󰳈
 		;;
 	esac
 

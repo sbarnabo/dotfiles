@@ -31,13 +31,13 @@ update() {
 			title="${event_parts[0]}"
 		else
 			time="No events today"
-			title=":)"
+			title="󱁖"
 		fi
 
 		ical_event=(
 			label="$title"
 			icon="$time"
-			icon.color="$YELLOW"
+			icon.color="$BLUE"
 			click_script="sketchybar --set "$NAME" popup.drawing=off"
 			position=popup.ical
 			drawing=on

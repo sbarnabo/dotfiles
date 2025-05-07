@@ -7,16 +7,16 @@ render_bar_item() {
 
 	if [[ ${CHARGING} != "" ]]; then
 		case ${BATT_PERCENT} in
-		100) ICON="󰁹" COLOR="$GREEN" ;;
-		9[0-9]) ICON="󰂂" COLOR="$GREEN" ;;
-		8[0-9]) ICON="󰂁" COLOR="$GREEN" ;;
-		7[0-9]) ICON="󰂀" COLOR="$GREEN" ;;
-		6[0-9]) ICON="󰁿" COLOR="$YELLOW" ;;
-		5[0-9]) ICON="󰁾" COLOR="$YELLOW" ;;
-		4[0-9]) ICON="󰁽" COLOR="$PEACH" ;;
-		3[0-9]) ICON="󰁼" COLOR="$PEACH" ;;
-		2[0-9]) ICON="󰁻" COLOR="$RED" ;;
-		1[0-9]) ICON="󰁺" COLOR="$RED" ;;
+		100) ICON="󰂅" COLOR="$BLUE" ;;
+		9[0-9]) ICON="󰂋" COLOR="$GREEN" ;;
+		8[0-9]) ICON="󰂊" COLOR="$GREEN" ;;
+		7[0-9]) ICON="󰢞" COLOR="$GREEN" ;;
+		6[0-9]) ICON="󰂉" COLOR="$YELLOW" ;;
+		5[0-9]) ICON="󰢝" COLOR="$YELLOW" ;;
+		4[0-9]) ICON="󰂈" COLOR="$PEACH" ;;
+		3[0-9]) ICON="󰂇" COLOR="$PEACH" ;;
+		2[0-9]) ICON="󰂆" COLOR="$RED" ;;
+		1[0-9]) ICON="󰢜" COLOR="$RED" ;;
 		*) ICON="󰂎" COLOR="$RED" ;;
 		esac
 

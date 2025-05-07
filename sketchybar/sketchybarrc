@@ -22,7 +22,7 @@ bar_config=(
 	position=top
 	shadow=off
 	sticky=on
-	topmost=off
+	topmost=false
 	y_offset=0
 )
 

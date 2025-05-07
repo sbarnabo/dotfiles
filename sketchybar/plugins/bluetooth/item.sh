@@ -2,7 +2,7 @@
 
 bluetooth_alias=(
 	icon.drawing=off
-	alias.color="$PEACH"
+	alias.color="$BLUE"
 	background.padding_right=0
 	align=right
 	click_script="$PLUGIN_DIR/bluetooth/scripts/bluetooth_click.sh"
